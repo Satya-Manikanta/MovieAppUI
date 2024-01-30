@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.copyright {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  background-color: rgb(88, 87, 87);
+}
+
+.copyright p {
+  margin-bottom: 0;
+}
+
+.copyright i {
+  margin: 5px;
+}
+
+.header-title {
+  display: flex;
+}
+
+.container-body {
+  height: calc(100vh - 120px);
+  overflow: auto;
+}
+
+.like-button {
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10rem;
+  background-color: transparent;
+  border: transparent;
+}
