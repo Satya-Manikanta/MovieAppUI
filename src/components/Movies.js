@@ -11,7 +11,7 @@ function Movies() {
 
     useEffect(() => {
         const token = sessionStorage.getItem("token");
-        axios.get("http://ec2-13-49-69-28.eu-north-1.compute.amazonaws.com:8082/api/v2/movies", {
+        axios.get("http://localhost:8082/api/v2/movies", {
             headers: {
                 Authorization: `Bearer ${token}`
             }

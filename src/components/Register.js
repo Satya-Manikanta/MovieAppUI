@@ -21,7 +21,7 @@ function Register() {
     };
     //console.log(user);
 
-    axios.post("http://ec2-13-49-69-28.eu-north-1.compute.amazonaws.com:8081/api/v1/register", user)
+    axios.post("http://localhost:8081/api/v1/register", user)
     .then((res) => {
       //console.log(res.data);
       alert(`Hi ${userName}, you have registered successfully..!!`);
